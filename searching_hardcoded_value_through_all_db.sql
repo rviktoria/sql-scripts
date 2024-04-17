@@ -127,7 +127,7 @@ BEGIN
     SET @counter = @counter + 1
 END
 
-SELECT * FROM #result;
+SELECT DISTINCT * FROM #result;
 PRINT @query
 
 DROP TABLE #dblist;
